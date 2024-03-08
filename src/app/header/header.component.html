@@ -1,0 +1,29 @@
+<header>
+    <h1>¡Bienvenido a mi tienda!</h1>
+    <nav>
+        <a class="menu" mat-button [matMenuTriggerFor]="menu">Productos</a>
+ 
+       
+        <mat-menu #menu="matMenu">
+            <a mat-menu-item routerLink="/products/accessories">Accesorios</a>
+            <a mat-menu-item routerLink="/products/pendants">Péndulos</a>
+            <a mat-menu-item routerLink="/products/bracelets">Pulseras</a>
+            <a mat-menu-item routerLink="/products/pyramids">Pirámides</a>
+            <a mat-menu-item routerLink="/products/invisible">Invisibles</a>
+            <a mat-menu-item routerLink="/products/charms">Dijes</a>
+            <a mat-menu-item routerLink="/products/chains">Cadenitas</a>
+            <a mat-menu-item routerLink="/products/studs">Topos</a>
+            <a mat-menu-item routerLink="/products/rings">Anillos</a>
+            <a mat-menu-item routerLink="/products/filigree">Filigrana</a>
+          </mat-menu>
+    
+          
+        <a routerLink="/cart">Carrito</a>
+        <a routerLink="/login">Iniciar sesión</a>
+
+        
+
+    
+    </nav>
+  </header>
+  
